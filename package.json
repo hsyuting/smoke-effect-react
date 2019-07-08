@@ -1,0 +1,37 @@
+{
+  "name": "smoke-effect-react",
+  "version": "1.0.4",
+  "description": "A broken smoke over efffect react component",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smoke",
+    "smoke-effect",
+    "smoke-effect-react",
+    "react-effect"
+  ],
+  "author": "Allan Hsu",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6"
+  },
+  "dependencies": {
+    "three": "^0.106.2"
+  }
+}
