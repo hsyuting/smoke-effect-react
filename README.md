@@ -1,6 +1,7 @@
 # What's this
 
-A simple broken smoke effect react component. A step in learning three.js with react. Ported from original creator Teo Litto's experiment on codepen https://codepen.io/teolitto/pen/KwOVvL
+A simple broken smoke effect react component. A step in learning three.js with react. Ported from original creator Teo Litto's experiment on codepen https://codepen.io/teolitto/pen/KwOVvL.
+Demo of the use of this component is at https://github.com/hsyuting/smoke-effect-react-demo.
 
 # Installation
 
